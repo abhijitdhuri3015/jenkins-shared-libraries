@@ -3,7 +3,7 @@ pipeline {
     agent { label 'agent1' }
 
     stages {
-        stage('Hello') {
+        stage('Hello1') {
             steps {
                 script {
                     hello() // calling the shared library function
